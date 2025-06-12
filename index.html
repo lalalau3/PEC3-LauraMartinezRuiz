@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="es-ES">
+<html lang="es">
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -9,155 +9,157 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link rel="icon" href="img/favicon.png" type="image/png">
     <title>Inicio | Good Vibrations</title>
-    <meta name="description" content="Se intriduce la página de inicio de Good Vibrations. Es un club de lectores para amantes del cine.">
+    <meta name="description" content="Es la página de entrada del sitio web, con secciones para buscar canciones, acceder a categorías, conocer el proyecto, ver la canción del día y sugerir nuevas canciones. También explica los criterios para seleccionar la música del sitio.">
   </head>
 
   <body>
-  <header>
-    <div class="header-main">
-      <a href="index.html">
-        <img src="img/logo.webp" alt="Good Vibrations Logo">
-      </a>
-      <nav>
-        <ul>
-          <li><a href="categorias.html">CATEGORÍAS</a></li>
-          <li><a href="revista.html">REVISTA</a></li>
-        </ul>
-      </nav>
-      <a class="login-btn" href="">INICIAR LA SESIÓN</a>
-    </div>
-  </header>
-
-  <main>
-    <section class="hero">
-      <h1>Good Vibrations</h1>
-      <form class="search-form" action="" method="get">
-        <label for="busqueda" class="sr-only">Buscar una canción</label>
-        <input type="search" id="busqueda" name="busqueda" placeholder="Busca una canción...">
-        <button type="submit">BUSCAR</button>
-      </form>
-    </section>
-
-    <section class="categorias-inicio">
-      <h2>Encuentra la canción perfecta para cada momento</h2>
-      <div class="categorias-grid">
-        <a href="categorias.html#aleatorio" class="categoria-btn">Aleatorio</a>
-        <a href="categorias.html#amor" class="categoria-btn">Amor</a>
-        <a href="categorias.html#buen-rollo" class="categoria-btn">Buen rollo</a>
-        <a href="categorias.html#celebracion" class="categoria-btn">Celebración</a>
-        <a href="categorias.html#motivacion" class="categoria-btn">Motivación</a>
-        <a href="categorias.html#tristeza" class="categoria-btn">Tristeza</a>
+    <header>
+      <div class="header-main">
+        <a href="index.html">
+          <img src="img/logo.webp" alt="Good Vibrations Logo">
+        </a>
+        <nav aria-label="Principal">
+          <ul>
+            <li><a href="categorias.html">CATEGORÍAS</a></li>
+            <li><a href="revista.html">REVISTA</a></li>
+          </ul>
+        </nav>
+        <a class="login-btn" href="">INICIAR LA SESIÓN</a>
       </div>
-    </section>
+    </header>
 
-    <section class="about">
-      <div class="about-img-text">
-        <figure>
-          <img src="img/about.jpg" alt="Chica escuchando música. Foto de Marcelo Chagas">
-          <figcaption>
-            Foto de <a href="https://www.pexels.com/es-es/@marcelochagas" target="_blank" rel="noopener">Marcelo Chagas</a>
-          </figcaption>
-        </figure>
-        <div class="about-text">
-          <h2>Música que conecta contigo</h2>
-          <p>
-            En <strong>Good Vibrations</strong> seleccionamos canciones para que te acompañen en todo momento.
-            Hay una canción para cada ocasión. No importa si estás contento o si estás triste, si necesitas una motivación
-            extra para encarar el día o si quieres celebrar… aquí encontrarás la canción que coincida con tu energía.
-            Explora nuestras <span lang="en">playlists</span> temáticas, descubre historias detrás de las canciones y encuentra cada día
-            una melodía que sintonice contigo.
-          </p>
+    <main>
+      <section class="hero">
+        <h1 class="bold-gv" lang="en">Good Vibrations</h1>
+        <form class="search-form" action="#" method="get">
+          <label for="busqueda" class="sr-only">Buscar una canción</label>
+          <input type="search" id="busqueda" name="busqueda" placeholder="Busca una canción...">
+          <button type="submit">BUSCAR</button>
+        </form>
+      </section>
+
+      <section class="categorias-inicio">
+        <h2>Encuentra la canción perfecta para cada momento</h2>
+        <div class="categorias-grid">
+          <a href="categorias.html#aleatorio" class="categoria-btn">Aleatorio</a>
+          <a href="categorias.html#amor" class="categoria-btn">Amor</a>
+          <a href="categorias.html#buen-rollo" class="categoria-btn">Buen rollo</a>
+          <a href="categorias.html#celebracion" class="categoria-btn">Celebración</a>
+          <a href="categorias.html#motivacion" class="categoria-btn">Motivación</a>
+          <a href="categorias.html#tristeza" class="categoria-btn">Tristeza</a>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="cancion-dia" id="cancion-dia">
-      <h2>La canción del día</h2>
-      <article class="song-card">
-        <h3><em>Good Vibrations</em></h3>
-        <ul>
-          <li>Artista: The Beach Boys</li>
-          <li>Publicación: 10 de octubre de 1966</li>
-          <li>Duración: 03:35</li>
-          <li>Idioma: inglés</li>
-          <li>Estado de ánimo: Buen rollo</li>
-        </ul>
+      <section class="about">
+        <div class="about-img-text">
+          <figure>
+            <img src="img/about.jpg" alt="Chica escuchando música. Foto de Marcelo Chagas">
+            <figcaption>
+              Foto de <a href="https://www.pexels.com/es-es/@marcelochagas" target="_blank" rel="noopener">Marcelo Chagas</a>
+            </figcaption>
+          </figure>
+          <div class="about-text">
+            <h2>Música que conecta contigo</h2>
+            <p>
+              En <span class="bold-gv" lang="en">Good Vibrations</span> seleccionamos canciones para que te acompañen en todo momento.
+              Hay una canción para cada ocasión. No importa si estás contento o si estás triste, si necesitas una motivación
+              extra para encarar el día o si quieres celebrar… aquí encontrarás la canción que coincida con tu energía.
+              Explora nuestras <i lang="en">playlists</i> temáticas, descubre historias detrás de las canciones y encuentra cada día
+              una melodía que sintonice contigo.
+            </p>
+          </div>
+        </div>
+      </section>
 
-        <blockquote>
+      <section class="cancion-dia" id="cancion-dia">
+        <h2>La canción del día</h2>
+        <article class="song-card">
+          <h3 class="bold-gv" lang="en">Good Vibrations</h3>
+          <ul>
+            <li>Artista: <span lang="en">The Beach Boys</span></li>
+            <li>Publicación: 10 de octubre de 1966</li>
+            <li>Duración: 03:35</li>
+            <li>Idioma: inglés</li>
+            <li>Estado de ánimo: Buen rollo</li>
+          </ul>
+
+          <blockquote lang="en">
+            <p>
+              I, I love the colorful clothes she wears
+              And the way the sunlight plays upon her hair
+              I hear the sound of a gentle word
+              On the wind that lifts her perfume through the air
+            </p>
+          </blockquote>
           <p>
-            I, I love the colorful clothes she wears
-            And the way the sunlight plays upon her hair
-            I hear the sound of a gentle word
-            On the wind that lifts her perfume through the air
+            <a href="https://www.youtube.com/watch?v=apBWI6xrbLY" target="_blank" rel="noopener">Escúchala en <span lang="en">Youtube</span></a>
           </p>
-        </blockquote>
+        </article>
+      </section>
+
+      <section id="formulario-recomienda" class="formulario-recomienda">
+        <h2>Dinos qué canción debería estar en las <i lang="en">playlists</i> de <span class="bold-gv" lang="en">Good Vibrations</span>.</h2>
+        <form action="#" method="post">
+          <div>
+            <label for="titulo-cancion">Título de la canción</label>
+            <input type="text" id="titulo-cancion" name="titulo-cancion" placeholder="ej. Imagine" required>
+          </div>
+          <div>
+            <label for="artista-cancion">Artista</label>
+            <input type="text" id="artista-cancion" name="artista-cancion" placeholder="ej. John Lennon" required>
+          </div>
+          <div>
+            <label for="razon">¿Por qué la recomiendas?</label>
+            <input type="text" id="razon" name="razon" placeholder="Es especial para mí porque..." required>
+          </div>
+          <div>
+            <label for="categoria-sugerida">Categoría sugerida</label>
+            <select id="categoria-sugerida" name="categoria-sugerida" required>
+              <option value="">Selecciona una categoría</option>
+              <option value="aleatorio">Aleatorio</option>
+              <option value="amor">Amor</option>
+              <option value="buen-rollo">Buen rollo</option>
+              <option value="celebracion">Celebración</option>
+              <option value="motivacion">Motivación</option>
+              <option value="tristeza">Tristeza</option>
+            </select>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+
+      <section class="criterio">
+        <h2>Tenemos criterio…</h2>
         <p>
-          <a href="https://www.youtube.com/watch?v=apBWI6xrbLY" target="_blank" rel="noopener">Escúchala en Youtube</a>
+          Las canciones que encontrarás en <span class="bold-gv" lang="en">Good Vibrations</span> no se eligen al azar.
+          Consideramos su calidad artística, el impacto cultural y social, su
+          accesibilidad en plataformas abiertas y la historia detrás de la canción.
         </p>
-      </article>
-    </section>
+      </section>
+    </main>
 
-    <section class="formulario-recomienda">
-      <h2>Dinos qué canción debería estar en las <span lang="en ">playlists</span> de Good Vibrations</h2>
-      <form action="" method="post">
-        <div>
-          <label for="titulo-cancion">Título de la canción</label>
-          <input type="text" id="titulo-cancion" name="titulo-cancion" placeholder="ej. Imagine">
-        </div>
-        <div>
-          <label for="artista-cancion">Artista</label>
-          <input type="text" id="artista-cancion" name="artista-cancion" placeholder="ej. John Lennon">
-        </div>
-        <div>
-          <label for="razon">¿Por qué la recomiendas?</label>
-          <input type="text" id="razon" name="razon" placeholder="Es especial para mí porque...">
-        </div>
-        <div>
-          <label for="categoria-sugerida">Categoría sugerida</label>
-          <select id="categoria-sugerida" name="categoria-sugerida">
-            <option value="">Selecciona una categoría</option>
-            <option value="aleatorio">Aleatorio</option>
-            <option value="amor">Amor</option>
-            <option value="buen-rollo">Buen rollo</option>
-            <option value="celebracion">Celebración</option>
-            <option value="motivacion">Motivación</option>
-            <option value="tristeza">Tristeza</option>
-          </select>
-        </div>
-        <button type="submit">Enviar</button>
-      </form>
-    </section>
-
-    <section class="criterio">
-      <h2>Tenemos criterio…</h2>
-      <p>
-        Las canciones que encontrarás en Good Vibrations no se eligen al azar.
-        Consideramos su calidad artística, el impacto cultural y social, su
-        accesibilidad en plataformas abiertas y la historia detrás de la canción.
-      </p>
-    </section>
-  </main>
-
-  <footer>
-    <div class="footer-main">
-      <a href="index.html">
-        <img src="img/logo-white.webp" alt="Good Vibrations Logo blanco">
-      </a>
-      <p>UOC, 2025. Laura Martínez Ruiz</p>
-      <p>Para la asignatura HTML y CSS</p>
-      <nav class="footer-nav">
-        <ul>
-          <li><a href=""><img src="img/instagram.svg" alt="Instagram"></a></li>
-          <li><a href=""><img src="img/youtube.svg" alt="YouTube"></a></li>
-        </ul>
-        <ul>
-          <li><a href="">Política de privacidad</a></li>
-          <li><a href="">Política de cookies</a></li>
-          <li><a href="">Aviso legal</a></li>
-          <li><a href="">Contacto</a></li>
-        </ul>
-      </nav>
-    </div>
-  </footer>
-</body>
+    <footer>
+      <div class="footer-main">
+        <a href="index.html">
+          <img src="img/logo-white.webp" alt="Good Vibrations logo">
+        </a>
+        <p><abbr title="Universitat Oberta de Catalunya" lang="ca">UOC</abbr>, 2025. Laura Martínez Ruiz</p>
+        <p>Para la asignatura <abbr title="HyperText Markup Language" lang="en">HTML</abbr> y <abbr title="Cascading Style Sheets" lang="en">CSS</abbr></p>
+        <nav class="footer-nav" aria-label="Redes sociales">
+          <ul>
+            <li><a href=""><img src="img/instagram.svg" alt="Instagram"></a></li>
+            <li><a href=""><img src="img/youtube.svg" alt="YouTube"></a></li>
+          </ul>
+        </nav>
+        <nav class="footer-nav" aria-label="Legales">
+          <ul>
+            <li><a href="">Política de privacidad</a></li>
+            <li><a href="">Política de <i lang="en">cookies</i></a></li>
+            <li><a href="">Aviso legal</a></li>
+            <li><a href="">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
 </html>
