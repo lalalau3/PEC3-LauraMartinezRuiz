@@ -1,0 +1,33 @@
+:root {
+  /* Colores */
+  --gris-claro: rgb(244, 244, 244);
+  --casi-negro: rgb(46, 29, 14);
+  --naranja: rgb(255, 87, 34);
+  --naranja-sutil: rgb(255, 138, 80);
+  --morado: rgb(142, 36, 170);
+  --blanco: rgb(255, 255, 255);
+  --blanco-translucido: rgb(255, 255, 255, 0.5);
+
+  /* Tipografía */
+  --fuente-base: 'Poppins', Arial, sans-serif;
+
+  /* Anchos y límites */
+  --max-width-grande: 1000px;
+  --padding-lateral: 1.5rem;
+
+  /* Sombras y bordes */
+  --sombra-form-focus: 0 0 15px #fff;
+
+  /* Otros */
+  --altura-linea-naranja: 4px;
+  --ancho-linea-naranja: 16px;
+  --ancho-decor-morado: 32px;
+  --altura-decor-morado: 8px;
+
+  /* Citas de bloque */
+  --borde-blockquote: 1px solid var(--casi-negro);
+}
+
+html, body {
+  font-family: var(--fuente-base);
+}
