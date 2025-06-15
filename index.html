@@ -6,14 +6,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="img/favicon.png" type="image/png">
     <title>Inicio | Good Vibrations</title>
     <meta name="description" content="Es la página de entrada del sitio web, con secciones para buscar canciones, acceder a categorías, conocer el proyecto, ver la canción del día y sugerir nuevas canciones. También explica los criterios para seleccionar la música del sitio.">
   </head>
 
   <body>
-    <header>
-      <div class="header-main">
+    <header class="header-i">
+      <div class="div-header-i">
         <a href="index.html">
           <img src="img/logo.webp" alt="Good Vibrations Logo">
         </a>
@@ -23,41 +24,43 @@
             <li><a href="revista.html">REVISTA</a></li>
           </ul>
         </nav>
-        <a class="login-btn" href="">INICIAR LA SESIÓN</a>
+        <a class="login-header" href="">INICIAR LA SESIÓN</a>
       </div>
     </header>
 
     <main>
-      <section class="hero">
-        <h1 class="bold-gv" lang="en">Good Vibrations</h1>
-        <form class="search-form" action="#" method="get">
-          <label for="busqueda" class="sr-only">Buscar una canción</label>
-          <input type="search" id="busqueda" name="busqueda" placeholder="Busca una canción...">
-          <button type="submit">BUSCAR</button>
-        </form>
-      </section>
-
-      <section class="categorias-inicio">
-        <h2>Encuentra la canción perfecta para cada momento</h2>
-        <div class="categorias-grid">
-          <a href="categorias.html#aleatorio" class="categoria-btn">Aleatorio</a>
-          <a href="categorias.html#amor" class="categoria-btn">Amor</a>
-          <a href="categorias.html#buen-rollo" class="categoria-btn">Buen rollo</a>
-          <a href="categorias.html#celebracion" class="categoria-btn">Celebración</a>
-          <a href="categorias.html#motivacion" class="categoria-btn">Motivación</a>
-          <a href="categorias.html#tristeza" class="categoria-btn">Tristeza</a>
+      <section class="busqueda seccion-fondo">
+        <div class="cont-limitado">
+          <h1 class="bold-gv" lang="en">Good Vibrations</h1>
+          <form class="busqueda-form" action="#" method="get">
+            <label for="busqueda" class="caja-busqueda">Buscar una canción</label>
+            <input type="search" id="busqueda" name="busqueda" placeholder="Busca una canción...">
+            <button type="submit">BUSCAR</button>
+          </form>
         </div>
       </section>
 
-      <section class="about">
-        <div class="about-img-text">
+      <section class="categorias-index">
+        <h2>Encuentra la canción perfecta para cada momento</h2>
+        <div class="categorias-grid-i cont-limitado">
+          <a href="categorias.html#aleatorio" class="categoria-i aleatorio">Aleatorio</a>
+          <a href="categorias.html#amor" class="categoria-i amor">Amor</a>
+          <a href="categorias.html#buen-rollo" class="categoria-i buen-rollo">Buen rollo</a>
+          <a href="categorias.html#celebracion" class="categoria-i celebracion">Celebración</a>
+          <a href="categorias.html#motivacion" class="categoria-i motivacion">Motivación</a>
+          <a href="categorias.html#tristeza" class="categoria-i tristeza">Tristeza</a>
+        </div>
+      </section>
+
+      <section class="conecta-i fondo-gradiente-i">
+        <div class="div-conecta-i cont-limitado">
           <figure>
             <img src="img/about.jpg" alt="Chica escuchando música. Foto de Marcelo Chagas">
             <figcaption>
               Foto de <a href="https://www.pexels.com/es-es/@marcelochagas" target="_blank" rel="noopener">Marcelo Chagas</a>
             </figcaption>
           </figure>
-          <div class="about-text">
+          <div class="div-texto-conecta-i">
             <h2>Música que conecta contigo</h2>
             <p>
               En <span class="bold-gv" lang="en">Good Vibrations</span> seleccionamos canciones para que te acompañen en todo momento.
@@ -70,33 +73,35 @@
         </div>
       </section>
 
-      <section class="cancion-dia" id="cancion-dia">
-        <h2>La canción del día</h2>
-        <article class="song-card">
-          <h3 class="bold-gv" lang="en">Good Vibrations</h3>
-          <ul>
-            <li>Artista: <span lang="en">The Beach Boys</span></li>
-            <li>Publicación: 10 de octubre de 1966</li>
-            <li>Duración: 03:35</li>
-            <li>Idioma: inglés</li>
-            <li>Estado de ánimo: Buen rollo</li>
-          </ul>
+      <section class="cancion-dia-i fondo-morado-i" id="cancion-dia">
+        <div class="cont-limitado">
+          <h2>La canción del día</h2>
+          <article class="art-cancion-dia-i">
+            <h3 class="bold-gv" lang="en">Good Vibrations</h3>
+            <ul>
+              <li>Artista: <span lang="en">The Beach Boys</span></li>
+              <li>Publicación: 10 de octubre de 1966</li>
+              <li>Duración: 03:35</li>
+              <li>Idioma: inglés</li>
+              <li>Estado de ánimo: <span class="emoji buen-rollo"></span> Buen rollo</li>
+            </ul>
 
-          <blockquote lang="en">
+            <blockquote lang="en">
+              <p>
+                I, I love the colorful clothes she wears
+                And the way the sunlight plays upon her hair
+                I hear the sound of a gentle word
+                On the wind that lifts her perfume through the air
+              </p>
+            </blockquote>
             <p>
-              I, I love the colorful clothes she wears
-              And the way the sunlight plays upon her hair
-              I hear the sound of a gentle word
-              On the wind that lifts her perfume through the air
+              <a href="https://www.youtube.com/watch?v=apBWI6xrbLY" target="_blank" rel="noopener">Escúchala en <span lang="en">Youtube</span></a>
             </p>
-          </blockquote>
-          <p>
-            <a href="https://www.youtube.com/watch?v=apBWI6xrbLY" target="_blank" rel="noopener">Escúchala en <span lang="en">Youtube</span></a>
-          </p>
-        </article>
+          </article>
+        </div>
       </section>
 
-      <section id="formulario-recomienda" class="formulario-recomienda">
+      <section id="formulario-i" class="formulario-i cont-limitado">
         <h2>Dinos qué canción debería estar en las <i lang="en">playlists</i> de <span class="bold-gv" lang="en">Good Vibrations</span>.</h2>
         <form action="#" method="post">
           <div>
@@ -108,8 +113,8 @@
             <input type="text" id="artista-cancion" name="artista-cancion" placeholder="ej. John Lennon" required>
           </div>
           <div>
-            <label for="razon">¿Por qué la recomiendas?</label>
-            <input type="text" id="razon" name="razon" placeholder="Es especial para mí porque..." required>
+            <label for="recomendar">¿Por qué la recomiendas?</label>
+            <input type="text" id="recomendar" name="recomendar" placeholder="Es especial para mí porque..." required>
           </div>
           <div>
             <label for="categoria-sugerida">Categoría sugerida</label>
@@ -127,7 +132,7 @@
         </form>
       </section>
 
-      <section class="criterio">
+      <section class="criterio-i fondo-grisclaro-i cont-limitado">
         <h2>Tenemos criterio…</h2>
         <p>
           Las canciones que encontrarás en <span class="bold-gv" lang="en">Good Vibrations</span> no se eligen al azar.
@@ -138,7 +143,7 @@
     </main>
 
     <footer>
-      <div class="footer-main">
+      <div class="footer">
         <a href="index.html">
           <img src="img/logo-white.webp" alt="Good Vibrations logo">
         </a>
