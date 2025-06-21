@@ -75,8 +75,8 @@
         </div>
       </section>
 
-      <section class="cancion-dia-i fondo-marron-i" id="cancion-dia">
-        <div class="cont-limitado">
+      <section class="cancion-dia-i fondo-marron-i cont-limitado" id="cancion-dia">
+        <div>
           <h2>La canción del día</h2>
           <article class="art-cancion-dia-i">
             <p class="bold-gv" lang="en">Good vibrations</p>
@@ -89,57 +89,58 @@
             </ul>
 
             <blockquote lang="en">
-              <p>
-                I, I love the colorful clothes she wears
+              <p>I, I love the colorful clothes she wears
                 And the way the sunlight plays upon her hair
                 I hear the sound of a gentle word
                 On the wind that lifts her perfume through the air
                 ...
               </p>
             </blockquote>
-            <p>
+            <p class="padding-l-i">
               <a href="https://www.youtube.com/watch?v=apBWI6xrbLY" target="_blank" rel="noopener">Escúchala en <span lang="en">Youtube</span></a>
             </p>
           </article>
         </div>
-      </section>
 
-      <section id="formulario-i" class="formulario-i cont-limitado">
+        <div id="formulario-i" class="formulario-i fondo-marron-i cont-limitado">
         <h2>Dinos qué canción debería estar en las <i lang="en">playlists</i> de <span class="bold-gv" lang="en">Good Vibrations</span>.</h2>
-        <form action="#" method="post">
-          <div>
-            <label for="titulo-cancion">Título de la canción</label>
-            <input type="text" id="titulo-cancion" name="titulo-cancion" placeholder="ej. Imagine" required>
-          </div>
-          <div>
-            <label for="artista-cancion">Artista</label>
-            <input type="text" id="artista-cancion" name="artista-cancion" placeholder="ej. John Lennon" required>
-          </div>
-          <div>
-            <label for="recomendar">¿Por qué la recomiendas?</label>
-            <input type="text" id="recomendar" name="recomendar" placeholder="Es especial para mí porque..." required>
-          </div>
-          <div>
-            <label for="categoria-sugerida">Categoría sugerida</label>
-            <select id="categoria-sugerida" name="categoria-sugerida" required>
-              <option value="">Selecciona una categoría</option>
-              <option value="aleatorio">Aleatorio</option>
-              <option value="amor">Amor</option>
-              <option value="buen-rollo">Buen rollo</option>
-              <option value="celebracion">Celebración</option>
-              <option value="motivacion">Motivación</option>
-              <option value="tristeza">Tristeza</option>
-            </select>
-          </div>
-          <button type="submit">Enviar</button>
+        <form action="#" method="post" autocomplete="off">
+          <fieldset>
+            <div>
+              <label for="titulo-cancion">Título de la canción</label>
+              <input type="text" id="titulo-cancion" name="titulo-cancion" placeholder="ej. Imagine" required>
+            </div>
+            <div>
+              <label for="artista-cancion">Artista</label>
+              <input type="text" id="artista-cancion" name="artista-cancion" placeholder="ej. John Lennon" required>
+            </div>
+            <div>
+              <label for="recomendar">¿Por qué la recomiendas?</label>
+              <textarea id="recomendar" name="recomendar" placeholder="Es especial para mí porque..." required></textarea>
+            </div>
+            <div>
+              <label for="categoria-sugerida">Categoría sugerida</label>
+              <select id="categoria-sugerida" name="categoria-sugerida" required>
+                <option value="">Selecciona una categoría</option>
+                <option value="aleatorio">Aleatorio</option>
+                <option value="amor">Amor</option>
+                <option value="buen-rollo">Buen rollo</option>
+                <option value="celebracion">Celebración</option>
+                <option value="motivacion">Motivación</option>
+                <option value="tristeza">Tristeza</option>
+              </select>
+            </div>
+            <button type="submit">Enviar</button>
+          </fieldset>
         </form>
+        </div>
       </section>
 
-      <section class="criterio-i fondo-grisclaro-i cont-limitado">
+        
+      <section class="criterio-i cont-limitado">
         <h2>Tenemos criterio…</h2>
         <p>
-          Las canciones que encontrarás en <span class="bold-gv" lang="en">Good Vibrations</span> no se eligen al azar.
-          Consideramos su calidad artística, el impacto cultural y social, su
+          Las canciones que encontrarás en <span class="bold-gv" lang="en">Good Vibrations</span> no se eligen al azar. Consideramos su calidad artística, el impacto cultural y social, su
           accesibilidad en plataformas abiertas y la historia detrás de la canción.
         </p>
       </section>
